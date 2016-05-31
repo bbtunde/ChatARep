@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.overdrivedx.chatarep.MainActivity"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aC"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/picBackground"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteTextColor"
+        >
+
+    <com.overdrivedx.custom.CAutoCompleteView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:ems="10"
+        android:hint="Search for a company"
+        android:textColor="@color/black"
+        android:textColorHint="@color/picText"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        android:imeOptions="actionDone"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@null"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/searchicon"
+        android:textColor="@color/black"
+        android:text="P"
+        android:layout_alignTop="@+id/autoCompleteTextView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="14sp"
+        android:paddingLeft="5sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+    </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/noresult"
+        android:layout_below="@+id/aC"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>

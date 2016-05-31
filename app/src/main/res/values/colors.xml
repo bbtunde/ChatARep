@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="winBackground">#fff</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="background">#90088B</color>
+    <color name="grey">#80cccccc</color>
+    <color name="darkgrey">#bdbdbd</color>
+    <color name="black">#000</color>
+    <color name="ColorPrimary">#222222</color>
+    <color name="ColorPrimaryDark">#fff</color>
+    <color name="tabsScrollColor">#90088B</color>
+    <color name="LightPurple">#AD23A8</color>
+    <color name="picBackground">#807f7f7f</color>
+    <color name="picText">#808a8989</color>
+    <color name="list_divider">#d3d3d3</color>
+    <color name="greybackground">#f2f2f2</color>
+    <color name="red">#f00000</color>
+</resources>

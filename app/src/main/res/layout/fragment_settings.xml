@@ -1,0 +1,58 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.overdrivedx.fragments.SettingsFragment"
+    android:background="@color/greybackground"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkgrey"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="20sp"
+        android:id="@+id/profile_listview_text"
+        android:text="ACCOUNT"
+        android:paddingLeft="10sp"
+        android:paddingRight="5sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listviewProfile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1.0sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/profile_listview_text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkgrey"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="20sp"
+        android:id="@+id/general_listview_text"
+        android:text="GENERAL"
+        android:paddingLeft="10sp"
+        android:paddingRight="5sp"
+        android:layout_below="@id/listviewProfile"
+        />
+    <!--android:divider="@android:color/transparent"-->
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listviewGeneral"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1.0sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/general_listview_text"
+         />
+
+</RelativeLayout>

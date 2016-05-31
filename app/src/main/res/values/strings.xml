@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChatRep</string>
+    <string name="app_version">ChatRep 0.8.25</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_quit">Quit</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="search_hint">Search</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="title_activity_navigation_pane">NavigationPane</string>
+    <string name="title_section1">Section 1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_messaging">MessagingActivity</string>
+    <string name="main_empty_list">There is no recent conversation, write new message
+		to start one.</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_about">About</string>
+    <string name="profile_text">Set your profile preference.</string>
+    <string name="delete_account_text">Your privacy is important. Deleting your account will remove all your personal and app usage data</string>
+    <string name="del_desc"></string>
+    <string name="terms">
+        TERMS AND CONDITIONS \n\nPlease read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using this app (the "Service") operated by OverDrive Dynamics herein referred to as ("us", "we", or "our").
+Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.
+    \n\nTERMINATION \n\nWe may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.
+    </string>
+</resources>
